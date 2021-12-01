@@ -1,0 +1,29 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right",
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.rulers": [
+        120
+    ],
+    "azureFunctions.showProjectWarning": false,
+    "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "workbench.startupEditor": "none",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.defaultCloneDirectory": "C:\\git",
+    "security.workspace.trust.untrustedFiles": "open",
+    "azureResourceManagerTools.parameterFiles": {
+        "c:\\git\\azdo\\clearpath\\clearpath\\arm-templates\\functions\\function-processors-armtemplate.json": "function-processors-armtemplate-parameters-sandbox.json",
+        "c:\\git\\azdo\\clearpath\\clearpath\\src\\functions\\rock.nexsys.clearpath.processors.func\\templates\\function-processors-armtemplate.json": "function-processors-armtemplate-parameters.json",
+        "c:\\git\\azdo\\clearpath\\clearpath\\arm-templates\\storageaccounts\\storageaccount-functionshost-armtemplate.json": "storageaccount-functionshost-armtemplate-parameters-sandbox.json",
+        "c:\\git\\azdo\\clearsign.tools\\clearsign.blobarchiver\\templates\\azuredeploy.json": "azuredeploy.parameters.json",
+        "c:\\git\\azdo\\clearsign.tools\\clearsign.blobarchiver\\clearsign.blobarchiver.function\\clearsign.blobarchiver.functionapp\\templates\\azuredeploy.json": "azuredeploy.parameters.json",
+        "c:\\git\\azdo\\clearsign\\clearsign.signing\\rock.nexsys.signing.arm\\azuredeploy.json": "azuredeploy.parameters.json"
+    },
+    "diffEditor.ignoreTrimWhitespace": false
+}
