@@ -19,3 +19,4 @@ alias h="helm"
 
 autoload -U compinit && compinit
 
+setopt HIST_IGNORE_ALL_DUPS
