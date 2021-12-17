@@ -5,9 +5,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/git/powerlevel10k/powerlevel10k.zsh-theme
+source ~/git/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/git/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 alias k="kubectl"
 alias kctx="kubectx"
@@ -20,3 +20,11 @@ alias h="helm"
 autoload -U compinit && compinit
 
 setopt HIST_IGNORE_ALL_DUPS
+
+bindkey  "^[[H"   beginning-of-line
+bindkey  "^[[F"   end-of-line
+bindkey  "^[[3~"  delete-char
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
+TERM=xterm
