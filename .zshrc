@@ -101,7 +101,7 @@ _fzf_compgen_dir() {
   fd --type=d --hidden --exclude .git . "$1"
 }
 
-source ~/fzf-git.sh/fzf-git.sh
+source ~/git/fzf-git.sh/fzf-git.sh
 
 # --- setup fzf theme ---
 fg="#CBE0F0"
@@ -116,3 +116,4 @@ export FZF_DEFAULT_OPTS="--color=fg:${fg},bg:${bg},hl:${purple},fg+:${fg},bg+:${
 # ----- Bat (better cat) -----
 
 export BAT_THEME=tokyonight_night
+
