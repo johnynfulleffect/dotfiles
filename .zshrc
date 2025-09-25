@@ -34,6 +34,9 @@ TERM=xterm-256color
 export PATH="/Users/jbateman/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
+# Vi Mode
+set -o vi
+
 # history setup
 HISTFILE=$HOME/.zhistory
 SAVEHIST=1000
@@ -116,4 +119,9 @@ export FZF_DEFAULT_OPTS="--color=fg:${fg},bg:${bg},hl:${purple},fg+:${fg},bg+:${
 # ----- Bat (better cat) -----
 
 export BAT_THEME=tokyonight_night
+
+# Carapace
+export CARAPACE_BRIDGES='zsh,fish,bash,inshellisense' # optional
+zstyle ':completion:*' format $'\e[2;37mCompleting %d\e[m'
+source <(carapace _carapace)
 
