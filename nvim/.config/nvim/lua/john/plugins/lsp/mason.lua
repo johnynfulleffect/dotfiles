@@ -31,7 +31,6 @@ return {
         "pyright",
         "yamlls",
         "dockerls",
-        "csharp_ls",
         "terraformls",
         "biome",
       },
